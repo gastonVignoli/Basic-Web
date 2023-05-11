@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<form method="post" action="https://jkorpela.fi/cgi-bin/echo.cgi">
+  <fieldset>
+  <h2>Ejercicio 4: Formularios</h2>
+  <hr>
+  <td><label>Usuario</label></td>
+                      <td>
+                          <input type='text' name="usuario"  />
+                      </td>
+                      <br>
+  <td><label>Contraseña</label></td>
+  <td>
+      <input type='pass' name="contrasenia"  />
+  </td>
+  <br>
+  <td>
+      <input type='submit' name="enviar"  />
+  </td>
+  <br>
+   <td>
+   <input type="submit" name="apretar" onclick="alert('Activado!')" value="Activar"/>
+  </td>
+  <br> 
+  <td><label>Nacionalidad: </label></td>
+  <td>
+  <input type="radio" name="nacionalidad" value="argentina" checked> Argentina
+  <input type="radio" name="nacionalidad2" value="argentina"> Otro </td>
+ <br>
+ <td>
+ <input type="checkbox" name="idioma1" value="ingles" checked> Habla inglés
+</td>
+<br> 
+
+
+
+
+  <br>
+  </fieldset>
+  <fieldset>
+    <textarea name="texto" id="descripcion de algo" rows="5" cols="50" rows="10"></textarea>
+  </fieldset>
+  <fieldset>
+    <select name="opciones para describir">
+      <option value="prosa">Descrito en prosa</option>
+      <option value="verso">Descrito en verso</option>
+      <option value="plano">Descrito en texto plano</option>
+      <option value="lindo">Descrito en eufemismos</option>
+    </select>
+    <br>
+    <a href="/index.html">Volver</a>
+
+  </fieldset>
+</form>
+</body>
+</html>
